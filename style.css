@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f5f5f5;
+    font-family: sans-serif;
+    color: #171718;
+    font-size: 18px;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100vh;
+
+}
+nav{
+    width: 100%;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+
+.nav-right a{
+    margin-right: 60px;
+    text-decoration: none;
+    color: #171718;
+    font-size: 16px;
+    font-weight: 500;
+}
+main{
+    padding: 50px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-container{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.right-container{
+    width: 50%;
+    display: flex;
+}
+.right-container img{
+    border-radius: 12px;
+    align-self: flex-end;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+div.select-pickup h2{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+input{
+    width: 100%;
+    padding: 12px 24px;
+    margin-top: 12px;
+    border-radius: 12px;
+    background: none;
+    border: 2px solid #DFDFDF;
+}
+.left-container > div{
+    margin-top: 24px;
+}
+.store-near{
+    font-size: 16px;
+
+}
+.store-near > p{
+    color: #878787;
+    font-size: 14px;
+}
+.store-near div:first-of-type{
+    margin-top: 8px;
+}
+.store-near-option.active{
+    border: 1px solid #35473E;
+    position: relative;
+    border-radius: 12px;
+}
+.store-near-option{
+    margin-top: 0px;
+    padding: 24px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #DFDFDF;
+    overflow: hidden;
+    position: relative;
+}
+.outer-cirle.active{
+    border: 1px solid #35473E;
+    position: relative;
+}
+.outer-cirle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid #878787;
+    position: relative;
+}
+.inner-circle.active{
+    background-color: #35473E;
+}
+.inner-circle{
+    width: 12px;
+    height: 12px;
+    background-color: #878787;
+    border-radius: 50%;
+    position: absolute;
+    left: 25%;
+
+}
+.location{
+    flex: 2;
+    margin-left: 12px;
+}
+.location .bottom{
+    margin-top: 4px;
+    color: #878787 ;
+}
+
+main .continue{
+    margin-top: 48px;
+}
+main .continue .submit {
+    padding: 16px;
+    width: 100%;
+    border: 2px solid #DFDFDF;
+    color: #fff;
+    background: #35473E;
+    border-radius: 12px;
+    font-size: 1rem;
+}
